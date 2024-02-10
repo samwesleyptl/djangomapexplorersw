@@ -1,0 +1,19 @@
+/* Add custom styles for the Django Map Explorer */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}

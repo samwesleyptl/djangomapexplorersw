@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Django Map Explorer</title>
+    <!-- Include Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+
+    <!-- Include custom CSS -->
+    <link rel="stylesheet" href="{% static 'map_explorer/css/style.css' %}">
+</head>
+<body>
+    <h1>The Django Map Explorer</h1>
+    <p>The Django Map Explorer is a Python-Django web app for interactive map exploration. It enables users to explore maps, visualize geographical data, and interact with map features. Features include map display, data visualization, search/filtering, user interaction, authentication, admin panel, and responsive design. The project aims to provide a user-friendly platform for map exploration and spatial analysis.</p>
+    
+    <!-- Add a map container -->
+    <div id="map"></div>
+
+    <!-- Include Leaflet map script -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-rodWxH99Rwdqf0zWwrivEzo0VngBxy00y+1vjDfGQre3O3it8qKuu0E6LbS6PQOyMDEyv5Ck5oZVvsIOZyos3Q==" crossorigin=""></script>
+    <!-- Include custom JavaScript -->
+    <script src="{% static 'map_explorer/js/script.js' %}"></script>
+</body>
+</html>

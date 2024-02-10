@@ -1,0 +1,7 @@
+/* Add custom styles for the map container */
+#map {
+    height: 600px;
+    width: 100%;
+}
+
+/* Add any additional custom styles here */
